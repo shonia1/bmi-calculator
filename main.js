@@ -61,3 +61,16 @@ inputs.forEach(input => {
 if ('serviceWorker' in navigator) {
   navigator.serviceWorker.register('sw.js');
 }
+
+//მენიუს ღილაკები
+const menuBtn = document.getElementById("menu")
+const sidebar = document.getElementById("sidebar")
+const closeBtn = document.getElementById("sidebar_close")
+
+menuBtn.addEventListener("click",function(){
+  sidebar.classList.add("show")
+})
+
+closeBtn.addEventListener("click",function(){
+  sidebar.classList.remove("show")
+})
