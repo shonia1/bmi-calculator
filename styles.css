@@ -99,3 +99,14 @@ button:hover {
 .gender-select:focus {
     border-color: #5c67f2;
 }
+
+.menu{
+    position: fixed;
+    top: 15px;
+    left: 150px;
+    font-size: 30px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    
+}
